@@ -60,7 +60,7 @@ class BankRequest:
                 if isinstance(check_digit, int):
                     print("Input Error: Account Name can't have numbers.")
                     input_error_found = True
-                    break
+                    break234
             except ValueError:
                 pass #validate account name for digits ends here
         
